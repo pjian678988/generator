@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="basepackage">cn.xplanet.reconciliation</entry>
+	<entry key="outRoot">C:\\Workspaces\\reconciliation</entry>
+	<!-- 数据库类型映射  -->
+	<entry key="java_typemapping.java.sql.Timestamp">java.util.Date</entry>
+	<entry key="java_typemapping.java.sql.Date">java.util.Date</entry>
+	<entry key="java_typemapping.java.sql.Time">java.util.Date</entry>	
+	<entry key="java_typemapping.java.lang.Byte">Integer</entry>
+	<entry key="java_typemapping.java.lang.Short">Integer</entry>
+	<entry key="java_typemapping.java.math.BigDecimal">BigDecimal</entry>
+	<!-- 是否覆盖  -->
+	<entry key="gg_isOverride">true</entry>
+	<entry key="tableRemovePrefixes">r_</entry>
+	<!-- Mysql -->
+	<entry key="jdbc_url">jdbc:mysql://192.168.2.150:3316/test?useUnicode=true&amp;characterEncoding=UTF-8</entry>
+	<entry key="jdbc_driver">com.mysql.jdbc.Driver</entry>
+	<entry key="jdbc_username">developer</entry>
+	<entry key="jdbc_password">developer_select</entry>
+</properties>

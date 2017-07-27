@@ -1,0 +1,20 @@
+<#include "/macro.include"/>
+<#assign className = table.className>   
+<#assign classNameFirstLower = table.classNameFirstLower>   
+<?xml version="1.0" encoding="UTF8"?>
+<dataset>
+	<table name="city">
+	    <#list table.columns as column>
+		<column>${column.sqlName}</column>
+		</#list>
+		<row>
+		<#list table.columns as column>
+		<#if column.isDateTimeColumn>
+			<value>2016-01-01 00:00:00</value>
+		<#else>
+			<value>1</value>
+		</#if>
+		</#list>
+		</row>		
+	</table>
+</dataset>
