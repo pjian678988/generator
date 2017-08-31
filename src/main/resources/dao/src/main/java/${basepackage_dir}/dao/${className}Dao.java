@@ -21,8 +21,7 @@ public interface ${className}Dao{
      *   
      * <update one>  
      * @param ${classNameLower}  
-     * @throws DAOException  
-     */ 
+     */
 	int update(${className} ${classNameLower});
 	 /**  
      *   

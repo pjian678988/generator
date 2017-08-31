@@ -48,8 +48,7 @@ public class ${className}ServiceBean{
      *   
      * <update one>  
      * @param ${classNameLower}  
-     * @throws DAOException  
-     */ 
+     */
 	public int update(${className} ${classNameLower}){
 		if(logger.isDebugEnabled()){
 			logger.debug("${className}ServiceBean.update(${className} ${classNameLower}) start-->", ${classNameLower});
